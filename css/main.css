@@ -1,0 +1,38 @@
+.sectionOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem; 
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6rem;
+}
+.paragraph .name {
+    font-size: 2.5rem;
+}
+.paragraph .profesion {
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+.paragraph .text {
+    font-size: 1.2rem;
+}
+.designer {
+    width: 30rem;
+}
+.paragraphBtn {
+    color: black;
+    background-color: white;
+    font-size: 1.2rem;
+    border-radius: 1.2rem;
+    padding: 0.8rem 1rem;
+    margin: 3rem 0;
+    width: 11rem;
+}
+.paragraphBtn:hover {
+    color: white;
+    background-color: darkgray;
+}

@@ -1,0 +1,36 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #0A0119;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    padding: 3rem 2rem;
+}
+.header img {
+    width: 10rem;
+}
+.navigationContainer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+.navigationContainer nav ul {
+    display: flex;
+    gap: 6rem;
+}
+.navigationContainer nav ul li {
+    list-style: none;
+}
+.navigationContainer nav ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    
+}
