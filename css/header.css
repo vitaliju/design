@@ -9,6 +9,7 @@ body * {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 3rem;
     padding: 3rem 2rem;
 }
@@ -32,5 +33,7 @@ body * {
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
-    
+}
+.navigationContainer nav ul li a:hover {
+    cursor: pointer;
 }
