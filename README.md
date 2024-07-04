@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational purposes only.
 
-Site published at: https://vitaliju.github.io/portfolio-grupinisdarbas/
+Site published at: https://vitaliju.github.io/grupinisdarbas/
 
 Design: [Portfolio Design](<https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-8&t=Vo0JQvdfc3RCy5Fh-0>)
 
