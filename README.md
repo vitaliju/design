@@ -49,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vitaliju/portfolio-grupinisdarbas.git
+   git clone https://github.com/vitaliju/grupinisdarbas.git
    ```
 2. Install NPM packages
    ```sh
