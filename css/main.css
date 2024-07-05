@@ -63,7 +63,7 @@ h2 {
     margin: 0rem 4rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 4rem 2rem;
+    gap: 4rem 1.5rem;
     justify-content: space-evenly;
 
     /* text-align: center; */

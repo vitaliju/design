@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational purposes only.
 
-Site published at: https://vitaliju.github.io/portfolio-grupinisdarbas/
+Site published at: https://vitaliju.github.io/grupinisdarbas/
 
 Design: [Portfolio Design](<https://www.figma.com/design/94SoTkTcpM6uuEcleoYIYr/PORTFOLIO-DESIGN-KIT-(Community)?node-id=101-8&t=Vo0JQvdfc3RCy5Fh-0>)
 
@@ -49,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/vitaliju/portfolio-grupinisdarbas.git
+   git clone https://github.com/vitaliju/grupinisdarbas.git
    ```
 2. Install NPM packages
    ```sh
