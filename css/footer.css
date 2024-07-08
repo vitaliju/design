@@ -1,0 +1,39 @@
+footer {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 4rem;
+}
+
+.footer>img {
+    width: 9rem;
+}
+
+.footer nav img {
+    width: 1.8rem;
+    margin-left: 5rem
+}
+
+footer nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    margin: 4rem 4rem;
+}
+
+.copyright img {
+    width: 1.2rem;
+}
+
+.copyright p {
+    font-size: 1rem;
+    margin-left: 0.4rem;
+}

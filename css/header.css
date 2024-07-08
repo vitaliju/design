@@ -20,20 +20,59 @@ body * {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0rem;
+    gap: 5rem;
 }
-.navigationContainer nav ul {
+
+.navigationContainer nav a {
     display: flex;
-    gap: 6rem;
-}
-.navigationContainer nav ul li {
-    list-style: none;
-}
-.navigationContainer nav ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     color: white;
 }
-.navigationContainer nav ul li a:hover {
+.navigationContainer nav a:hover {
     cursor: pointer;
+}
+@media(max-width: 1200px) {
+    .header,
+    .sectionTwo,
+    .footer {
+        width: 900px;
+        margin-left: calc(50% - 450px);
+    }  
+}
+@media(max-width: 1000px) {
+    .header,
+    footer {
+        width: 700px;
+        margin-left: calc(50% - 350px);
+    }
+    
+
+}
+@media(max-width: 900px) {
+    .header,
+    .footer {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+    
+}
+@media(max-width: 700px) {
+    .header,
+    .footer {
+        flex-direction: column;
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    
+}
+@media(max-width: 460px) {
+
+    .header,
+    .footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 400px;
+        margin-left: 0;
+    }
 }
