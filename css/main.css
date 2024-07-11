@@ -62,7 +62,7 @@ h2 {
     color: white;
     margin: 0rem 4rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(24.37rem, 1fr));
     gap: 4rem 1.5rem;
     justify-content: space-evenly;
 
@@ -157,3 +157,54 @@ h2 {
     margin: 1.5rem 0;
 }
 
+@media(max-width: 1200px) {
+    .header,
+    .sectionTwo,
+    .footer {
+        width: 900px;
+        margin-left: calc(50% - 450px);
+    }
+}
+
+@media(max-width: 1000px) {
+    .header,
+    .footer {
+        width: 700px;
+        margin-left: calc(50% - 350px);
+    }
+
+
+}
+
+@media(max-width: 900px) {
+    .header,
+    .footer {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+    }
+    .designer {
+        width: 20rem;
+    }
+}
+
+@media(max-width: 700px) {
+    .header,
+    .footer {
+        flex-direction: column;
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+    .designer {
+        width: 10rem;
+    }
+}
+
+@media(max-width: 460px) {
+    .header,
+    .footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 400px;
+        margin-left: 0;
+    }
+}
