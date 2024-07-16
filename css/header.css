@@ -1,34 +1,34 @@
 body,
 body * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #0A0119;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0a0119;
 }
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 3rem;
-    padding: 3.8rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  padding: 3.8rem 2.5rem;
 }
 .header img {
-    width: 9rem;
+  width: 9rem;
 }
 .navigationContainer nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
 .navigationContainer nav a {
-    display: flex;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
 }
 .navigationContainer nav a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }

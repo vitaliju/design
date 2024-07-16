@@ -1,210 +1,208 @@
 .sectionOne {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3rem; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
 }
 .paragraph {
-    display: flex;
-    flex-direction: column;
-    color: white;
-    margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-top: 6rem;
 }
 .paragraph .name {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 .paragraph .profesion {
-    font-size: 3rem;
-    margin: 1rem 0;
+  font-size: 3rem;
+  margin: 1rem 0;
 }
 .paragraph .text {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 .designer {
-    width: 30rem;
+  width: 30rem;
 }
 .paragraphBtn {
-    color: #0A0119;
-    background-color: white;
-    font-size: 1.2rem;
-    border-radius: 1.2rem;
-    border: none;
-    padding: 0.8rem 1rem;
-    margin: 3rem 0;
-    width: 11rem;
-    cursor: pointer;
+  color: #0a0119;
+  background-color: white;
+  font-size: 1.2rem;
+  border-radius: 1.2rem;
+  border: none;
+  padding: 0.8rem 1rem;
+  margin: 3rem 0;
+  width: 11rem;
+  cursor: pointer;
 }
 .paragraphBtn:hover {
-    color: white;
-    background-color: #2e1c4b;
+  color: white;
+  background-color: #2e1c4b;
 }
 .sectionTwo {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3rem;
 }
 h2 {
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-    margin: 6rem 0;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin: 6rem 0;
 }
 .paragraph-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 4rem 0;
-    gap: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 4rem 0;
+  gap: 5rem;
 }
 
 .section-three {
-    color: white;
-    margin: 0rem 4rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24.37rem, 1fr));
-    gap: 4rem 1.5rem;
-    justify-content: space-evenly;
+  color: white;
+  margin: 0rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24.37rem, 1fr));
+  gap: 4rem 1.5rem;
+  justify-content: space-evenly;
 
-    /* text-align: center; */
+  /* text-align: center; */
 }
 
 .photo-container {
-    width: 25rem;
+  width: 25rem;
 }
 
 .dark {
-    filter: brightness(50%);
+  filter: brightness(50%);
 }
 
 .photo {
-    position: relative;
+  position: relative;
 }
 
 .photo-btn {
-    position: absolute;
-    top: 8.5rem;
-    left: 5.5rem;
-    text-align: center;
-    gap: 3rem;
-    width: 16rem;
-    height: 7rem;
-    background-color: transparent;
+  position: absolute;
+  top: 8.5rem;
+  left: 5.5rem;
+  text-align: center;
+  gap: 3rem;
+  width: 16rem;
+  height: 7rem;
+  background-color: transparent;
 }
 
 .photo img {
-    position: relative;
-    width: 26rem;
-    height: 26rem;
-    border-radius: 2.3rem;
+  position: relative;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 2.3rem;
 }
 
 .photo-btn > button {
-    color: white;
-    margin: 1rem 0;
-    border: 0.12rem solid white;
-    padding: 0.5rem 2rem;
-    box-sizing: content-box;
-    border-radius: 0.7rem;
-    background-color: transparent;
+  color: white;
+  margin: 1rem 0;
+  border: 0.12rem solid white;
+  padding: 0.5rem 2rem;
+  box-sizing: content-box;
+  border-radius: 0.7rem;
+  background-color: transparent;
 }
 
-.photo-btn>button:hover {
-    background-color: white;
-    color: #0A0119;
+.photo-btn > button:hover {
+  background-color: white;
+  color: #0a0119;
 }
 
 .project-name {
-    font-size: 1.7rem;
-    margin-top: 1.5rem;
+  font-size: 1.7rem;
+  margin-top: 1.5rem;
 }
 
 .about {
-    margin-top: 1rem;
-    display: flex;
-    gap: 1rem;
-    font-size: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
 }
 
 .about p {
-    border: 0.12rem solid white;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1.2rem;
+  border: 0.12rem solid white;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.2rem;
 }
 
 .contact {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
 }
 
 .contact p:first-child {
-    font-size: 1.2rem;
-    margin: 1.5rem 0;
+  font-size: 1.2rem;
+  margin: 1.5rem 0;
 }
 
 .me {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-.contact>a {
-    text-decoration: none;
-    color: white;
-    font-size: 2.5rem;
-    margin: 1.5rem 0;
+.contact > a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
 }
 
-@media(max-width: 1200px) {
-    .header,
-    .sectionTwo,
-    .footer {
-        width: 900px;
-        margin-left: calc(50% - 450px);
-    }
+@media (max-width: 1200px) {
+  .header,
+  .sectionTwo,
+  .footer {
+    width: 900px;
+    margin-left: calc(50% - 450px);
+  }
 }
 
-@media(max-width: 1000px) {
-    .header,
-    .footer {
-        width: 700px;
-        margin-left: calc(50% - 350px);
-    }
-
-
+@media (max-width: 1000px) {
+  .header,
+  .footer {
+    width: 700px;
+    margin-left: calc(50% - 350px);
+  }
 }
 
-@media(max-width: 900px) {
-    .header,
-    .footer {
-        width: 600px;
-        margin-left: calc(50% - 300px);
-    }
-    .designer {
-        width: 20rem;
-    }
+@media (max-width: 900px) {
+  .header,
+  .footer {
+    width: 600px;
+    margin-left: calc(50% - 300px);
+  }
+  .designer {
+    width: 20rem;
+  }
 }
 
-@media(max-width: 700px) {
-    .header,
-    .footer {
-        flex-direction: column;
-        width: 400px;
-        margin-left: calc(50% - 200px);
-    }
-    .designer {
-        width: 10rem;
-    }
+@media (max-width: 700px) {
+  .header,
+  .footer {
+    flex-direction: column;
+    width: 400px;
+    margin-left: calc(50% - 200px);
+  }
+  .designer {
+    width: 10rem;
+  }
 }
 
-@media(max-width: 460px) {
-    .header,
-    .footer {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        width: 400px;
-        margin-left: 0;
-    }
+@media (max-width: 460px) {
+  .header,
+  .footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 400px;
+    margin-left: 0;
+  }
 }
